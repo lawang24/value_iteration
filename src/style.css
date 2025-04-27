@@ -1,0 +1,36 @@
+.legend {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .legend div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .swatch {
+    width: 1em;
+    height: 1em;
+    border: 1px solid #666;
+    display: inline-block;
+  }
+
+html, body {
+    height: 100%;
+    margin: 0; /* also reset margin to avoid unexpected gaps */
+}
+
+#app {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 3%;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+  
